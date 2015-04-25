@@ -18,4 +18,10 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('app/node_modules/public/css'));
 });
 
+gulp.task('dev', ['sass', 'default'], function () {
+  gulp.watch('app/node_modules/scss/*.scss', ['sass']);
+  gulp.watch('app/node_modules/**/*.jsx', ['scripts']);
+  gulp.watch(['app/node_modules/**/*.js', '!app/node_modules/public/main.js'], ['scripts']);
+});
+
 gulp.task('default', ['scripts']);
