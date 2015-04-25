@@ -13,14 +13,14 @@ var INTERVAL_SECS = 30;
 server.listen(3000, function () {
   console.log('Listening on port: 3000...');
 
-  setInterval(function () {
-    console.log('fetching data from api...');
-    github.getStats()
-      .then(function (users) {
-        dbRef.set({
-          users: users
-        });
-        console.log('updated db!');
-      });
-  }, INTERVAL_SECS * 1000);
+  // setInterval(function () {
+  //   console.log('fetching data from api...');
+  //   github.getStats()
+  //     .then(function (users) {
+  //       dbRef.set({
+  //         users: users
+  //       });
+  //       console.log('updated db!');
+  //     });
+  // }, INTERVAL_SECS * 1000);
 });

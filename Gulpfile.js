@@ -1,6 +1,6 @@
-
 var browserify = require('gulp-browserify');
-var jshint     = require('gulp-jshint');
+var sass       = require('gulp-sass');
+
 var gulp       = require('gulp');
 
 gulp.task('scripts', function () {
@@ -12,11 +12,10 @@ gulp.task('scripts', function () {
     .pipe(gulp.dest('./app/node_modules/public/'));
 });
 
-gulp.task('jshint', function () {
-  return gulp.src('app/**/*.js')
-    .pipe(jshint());
+gulp.task('sass', function () {
+  gulp.src('app/node_modules/scss/*.scss')
+    .pipe(sass())
+    .pipe(gulp.dest('app/node_modules/public/css'));
 });
 
 gulp.task('default', ['scripts']);
-
-gulp.task('dev', ['jshint']);
