@@ -15,7 +15,7 @@
     "express": "^4.12.3",
     "firebase": "^2.2.4",
     "foundation": "^4.2.1-1",
-    "lodash.groupby": "^3.1.0",
+    "lodash": "^3.7.0",
     "pouchdb": "^3.4.0",
     "react": "^0.13.2",
     "superagent": "^1.2.0"
