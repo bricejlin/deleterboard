@@ -11,6 +11,7 @@
   "dependencies": {
     "bluebird": "^2.9.24",
     "bunyan-request-logger": "^1.0.1",
+    "cute-stack": "^1.2.1",
     "express": "^4.12.3",
     "firebase": "^2.2.4",
     "foundation": "^4.2.1-1",
