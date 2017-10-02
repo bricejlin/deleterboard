@@ -16,9 +16,9 @@
     "firebase": "^2.2.4",
     "foundation": "^4.2.1-1",
     "lodash": "^3.7.0",
-    "pouchdb": "^3.4.0",
-    "react": "^0.13.2",
-    "superagent": "^1.2.0"
+    "pouchdb": "^6.3.0",
+    "react": "^0.14.0",
+    "superagent": "^2.0.0"
   },
   "devDependencies": {
     "browserify": "^9.0.8",
