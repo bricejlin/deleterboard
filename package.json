@@ -18,7 +18,7 @@
     "lodash": "^3.7.0",
     "pouchdb": "^6.3.0",
     "react": "^0.14.0",
-    "superagent": "^2.0.0"
+    "superagent": "^3.7.0"
   },
   "devDependencies": {
     "browserify": "^9.0.8",
