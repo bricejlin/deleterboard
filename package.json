@@ -15,7 +15,7 @@
     "express": "^4.12.3",
     "firebase": "^2.2.4",
     "foundation": "^4.2.1-1",
-    "lodash": "^3.7.0",
+    "lodash": "^4.17.19",
     "pouchdb": "^6.3.0",
     "react": "^0.14.0",
     "superagent": "^2.0.0"
