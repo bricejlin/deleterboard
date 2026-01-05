@@ -16,7 +16,7 @@
     "firebase": "^2.2.4",
     "foundation": "^4.2.1-1",
     "lodash": "^3.7.0",
-    "pouchdb": "^6.3.0",
+    "pouchdb": "^7.0.0",
     "react": "^0.14.0",
     "superagent": "^2.0.0"
   },
